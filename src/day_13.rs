@@ -30,7 +30,7 @@ impl Solution {
 
         println!();
 
-        let mut formated_pairs = Vec::new();
+        let mut formatted_pairs = Vec::new();
 
         for pair in &pairs {
             let pair_0 = pair[0];
@@ -54,13 +54,13 @@ impl Solution {
             println!("pair_1: {:?}", pair_1);
 
 
-            formated_pairs.push(vec![pair_0, pair_1]);
+            formatted_pairs.push(vec![pair_0, pair_1]);
         }
 
 
         println!();
 
-        for pair in &formated_pairs {
+        for pair in &formatted_pairs {
             println!("pair: {:?}", pair);
         }
 
